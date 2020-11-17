@@ -11,4 +11,5 @@ $ setxkbmap nuss
 
 # Preview
 ![preview](preview.png)
-As you can see it also has some mathematical symbols, too.
+As you can see it also has some mathematical symbols, too.\
+NOTE: AltGr+5 gives ‰ (per mille / promille), it is shortened to ... in the image.
