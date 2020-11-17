@@ -8,3 +8,7 @@ PRs for general improvements and localizations for other countries are of course
 # cp nuss /usr/share/X11/xkb/symbols
 $ setxkbmap nuss
 ```
+
+# Preview
+![preview](preview.png)
+As you can see it also has some mathematical symbols, too.
