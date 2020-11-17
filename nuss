@@ -68,7 +68,7 @@ xkb_symbols "basic" {
     key <AB02>	{ [    x,       X,       x,       X ]	};
     key <AB03>	{ [    c,       C,       copyright,       copyright ]	};
     key <AB04>	{ [    v,       V,       Greek_lambda,       Greek_LAMBDA ]	};
-    key <AB05>	{ [    b,       V,       Greek_beta,       Greek_BETA ]	};
+    key <AB05>	{ [    b,       B,       Greek_beta,       Greek_BETA ]	};
     key <AB06>	{ [    n,       N,       0x1002115,       no ]	};
     key <AB07>	{ [    m,       M,       0x10000B5,       0x100210E ]	};
     key <AB08>	{ [    comma,    less,       comma,       less ]	};
