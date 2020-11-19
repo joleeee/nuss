@@ -48,7 +48,7 @@ xkb_symbols "basic" {
     key <AD08>	{ [         i,          I,   0x100221A,    0x100221A ]	};
     key <AD09>	{ [         o,          O,     Greek_theta,     Greek_THETHA ]	};
     key <AD10>	{ [         p,          P,     Greek_pi,     Greek_PI ]	};
-    key <AD11>	{ [         bracketleft,          braceleft,     0x10000E5,     0x10000C5 ]	};
+    key <AD11>	{ [         bracketleft,          braceleft,     aring,     Aring ] };
     key <AD12>	{ [         bracketright,          braceright,     dead_diaeresis,     dead_circumflex ]	};
 
     key <AC01>	{ [         a,          A,   Greek_alpha,    Greek_ALPHA ]	};
