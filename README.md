@@ -8,6 +8,17 @@ PRs for general improvements and localizations for other countries are of course
 # cp nuss /usr/share/X11/xkb/symbols
 $ setxkbmap nuss
 ```
+For a permanent setup:
+```sh
+#/etc/X11/xorg.conf.d/00-keyboard.conf
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+        Option "XkbLayout" "nuss"
+        Option "XkbModel" "pc102"
+	Option "XkbOptions" "altwin:swap_lalt_lwin"
+EndSection
+```
 
 # Preview
 ![preview](preview.png)
@@ -19,5 +30,4 @@ NOTE: AltGr+5 gives ‰ (per mille / promille), it is shortened to ... in the im
 * More mathematical symbols like R and Q
 * Utilize the key between Shift and Z (but for what?)
 * Swap ESC and CapsLock
-* Swap Alt and SUPER (very useful with WMs because many applications such as firefox uses alt to switch tabs by default, and so changing the WM key to SUPER and then swapping them on the keyboard layout layer is a lot easier)
 * Utilize key between FN and Ctrl for something other than "right clicking"
