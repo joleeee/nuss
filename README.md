@@ -1,3 +1,4 @@
+# moved to [https://git.sr.ht/~jole/nous](https://git.sr.ht/~jole/nous)
 # NUSS - The ultimate programming keyboard
 Nordic + United States + Special\
 Made with scandinavian keyboards in mind. Uses both Shift and AltGr to switch keys.\
